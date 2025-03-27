@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    init: true
+    environment:
+      NODE_ENV: production
+    depends_on: []
+    # env_file: ./.env  # Uncomment if .env file exists
+networks:
+  default:
+    driver: bridge

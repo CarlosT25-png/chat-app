@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Logs
+*.log
+
+# Environment files
+.env*
+
+# Version control
+.git/
+.gitignore
+
+# IDE files
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+tmp/
+
+# Documentation
+*.md
+README*
+
+# Docker files
+Dockerfile*
+docker-compose*
+
+# Public files
+public/
+
+# Source maps
+*.map
+
+# TypeScript
+*.tsbuildinfo
+
+# Miscellaneous
+.DS_Store
