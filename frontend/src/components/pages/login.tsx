@@ -39,7 +39,6 @@ export default function Login() {
     if (type == Type.JOIN) {
       router.push('/' + channelID)
     } else {
-      // Get channel ID from Backend
       router.push('/' + channelID)
     }
   }
